@@ -1,0 +1,58 @@
+
+body {
+    background-color: #f3e6d4;
+    color: #4a3b2a;
+    background-image: url("https://www.transparenttextures.com/patterns/aged-paper.png");
+    font-family: Georgia, serif;
+}
+
+.header-vintage {
+    background-color: #9a7b59;
+    background-image: url("https://www.transparenttextures.com/patterns/retina-wood.png");
+    color: #fff3dd;
+    border-bottom: 5px solid #6d543f;
+}
+
+.slogan {
+    font-style: italic;
+}
+
+.vintage-nav {
+    background-color: #7d6047 !important;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+    border-bottom: 4px solid #5a4332;
+}
+
+.navbar-brand, 
+.nav-link {
+    color: #ffeccb !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+    color: #fff8e8 !important;
+    text-shadow: 1px 1px #3b2a20;
+}
+
+/* CAJA PRINCIPAL */
+.vintage-box {
+    background-color: #fff6e6;
+    border: 4px solid #c4a88f;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(80, 60, 45, 0.3);
+    background-image: url("https://www.transparenttextures.com/patterns/old-map.png");
+}
+
+/* TÍTULO VINTAGE */
+.vintage-title {
+    font-size: 2rem;
+    text-shadow: 1px 1px #bda58b;
+    color: #6b4e3d;
+}
+
+/* IMAGEN VINTAGE */
+.vintage-img {
+    border: 3px solid #b89a7a;
+    box-shadow: 0 0 10px rgba(50, 40, 30, 0.4);
+}
