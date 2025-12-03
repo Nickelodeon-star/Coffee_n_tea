@@ -17,3 +17,6 @@ Route::get('/generarPedido',[PedidoController::class,'getOrdenado']);
 Route::get('/agregarProducto/{id}',[PedidoController::class,'agregarProducto']);
 Route::get('/masCantidad/{id}',[PedidoController::class,'masCantidad']);
 Route::get('/menosCantidad/{id}',[PedidoController::class,'menosCantidad']);
+Route::post('/grabarPedido',[PedidoController::class,'grabarPedido']);
+Route::get('/verPedidos',[PedidoController::class,'getPedido']);
+Route::get('/eliminarPedido/{id}',[PedidoController::class,'eliminarPedido']);
